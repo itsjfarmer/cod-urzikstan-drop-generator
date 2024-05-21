@@ -20,9 +20,15 @@
             margin: 0;
             padding: 0;
         }
+<<<<<<< HEAD
         .container {
+=======
+
+        .main.container {
+>>>>>>> 14514d2d9a5df008a8150c27dfe9b5f25ee6ecb2
             padding-top: 0;
         }
+
         .grid-container {
             display: grid;
             grid-template-columns: repeat(11, 1fr);
@@ -263,6 +269,13 @@ const drillSergeantQuips = [
             selectedCell.classList.add("highlight");
             selectedCell.textContent = letter + number;
             generateQuip();
+<<<<<<< HEAD
+=======
+
+            // Update the displayed grid coordinate
+            document.getElementById("coordinateDisplay").textContent = letter + number;
+
+>>>>>>> 14514d2d9a5df008a8150c27dfe9b5f25ee6ecb2
         }
 
         addDrillSargeant();
